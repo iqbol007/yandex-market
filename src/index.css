@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.d{
+  height: 6px;
+}
+ .discImg{
+   margin-left: 10px;
+   margin-top: 5px;
+    font-size: large;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+   width: 40px;
+   color: honeydew;
+   height: 40px;
+   border-radius: 50%;
+   background-color: rgb(255, 47, 47);
+   position: absolute;
+ }
+
+.main {
+  margin-left: 40px;
+  margin-top: 200px;
+  align-content: center;
+  display: inline-block;
+}
+
+.main-block {
+  margin-left: 50px;
+  width: 150px;
+  box-shadow: 0px 0px 2px black;
+  text-align: center;
+}
+
+.main-block:hover {
+  box-shadow: 0px 0px 5px rgb(66, 4, 85);
+}
+
+.image {
+  height: 170px;
+  width: 120px;
+  background-image: initial;
+}
+.price {
+  margin-left: -20px;
+}
+.details{
+  font-size: large;
+ color: darkslategrey;
+}
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+}
+
+ 
