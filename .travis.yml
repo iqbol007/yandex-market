@@ -6,6 +6,7 @@ script: npm run build
 deploy:
   provider: pages
   skip_cleanup: true
+  "homepage" : "http://iqbol007.github.io/yandex-market",
   github_token: $GITHUB_TOKEN
   local_dir: build
   keep_history: true
